@@ -1,0 +1,34 @@
+body{
+  margin: 30px;
+}
+header {
+  font-family: Helvetica, sans-serif;
+  border-bottom: solid 2px rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+.head-title {
+  text-transform: uppercase;
+}
+.head-ul {
+  display: flex;
+  padding-left: 0px;
+}
+ul li {
+  list-style: none;
+  margin: 5px 15px;
+}
+.anchor {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+
+}
+.main-title {
+  font-family: Georgia, serif;
+  margin-top: 25px;
+  font-weight: 500;
+}
+.content p {
+  font-family: Helvetica, sans-serif;
+  line-height: 23px;
+}

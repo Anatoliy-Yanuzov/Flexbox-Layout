@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  max-width: 65vw;
+  min-height: 350px;
+}
+.container article {
+  margin: 10px;
+  flex-shrink: 3;
+}
+.container article:nth-child(2){
+    flex-shrink: 1;
+}
+img {
+    height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px RGB(200, 199 , 203);
+  object-fit: cover;
+}

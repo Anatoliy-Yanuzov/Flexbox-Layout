@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  border-bottom: 2px solid black;
+}
+header h1 {
+  text-transform: uppercase;
+}
+h1,
+main {
+  margin: 30px;
+}
+h3 {
+  font-family: Georgia, serif;
+}
+main {
+  line-height: 25px;
+}
+footer {
+  background: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  position: sticky;
+  bottom: 0;
+}
